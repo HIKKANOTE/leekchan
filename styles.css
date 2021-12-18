@@ -1,7 +1,7 @@
 /* variables */
 :root{
     --primary: #FFC636;
-    --secondary: #5ac6da;
+    --secondary: #fffffF;
 }
 
 /* reset */
@@ -39,7 +39,7 @@ input,textarea{
     padding: 10px 16px;
     border-radius: 20px;
     border: 2px solid #9893D8;
-    color: #f2f2f2;
+    color: #000000;
 }
 
 /* fonts */
@@ -100,7 +100,7 @@ h4{
     margin: 20px 0;
 }
 #portfolio{
-    
+    background: url();
 }
 
 /* small tablet styles */
