@@ -1,6 +1,6 @@
 /* variables */
 :root{
-    --primary: #FFC636;
+    --primary: #007fc4;
     --secondary: #fffffF;
 }
 
@@ -23,7 +23,7 @@ body{
 .button{
     background: none;
     border: 2px solid var(--primary);
-    color: var(--primary);
+    color: #000000;
     padding: 6px 12px;
     border-radius: 20px;
     text-transform: uppercase;
