@@ -7,17 +7,31 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="assets/16x16.ico" type="image/x-icon">
   <title>Leekchan</title>
+  <script src="main.js" defer></script>
 </head>
 <body>
-  <nav class="site-nav grid">
-    <h1>first heading</h1>
-    <ul>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">contact</a></li>
-    </ul>
-  </nav>
-  <section id="welcome" class="grid">
+  
+     <!-- Large Screen Navigation Bar -->
+     <nav>
+      <div class="logo">
+        Logo
+      </div>
+      <div class="links">
+        <p>Login</p>
+        <p>Signup</p>
+        <p>About Us</p>
+        <p>Contact</p>
+        <strong id="mobile-menu-btn">Menu</strong>
+      </div>
+    </nav>
+    <!-- Small Screen Navigation Bar -->
+    <div class="mobile-menu">
+      <p>Login</p>
+      <p>Signup</p>
+      <p>About Us</p>
+      <p>Contact</p>
+    </div>
+    <section id="welcome" class="grid">
     <div class="welcome-text">
       <h2>second heading</h2>
       <p class="leading">Lorem ipsum dolor, sit amet consectetur.</p>
@@ -77,7 +91,7 @@
   </section>
   <footer>
     <div class="grid">
-      <p class="copyright">Copyright 2021 Leekchan</p>
+      <p class="copyright">Copyright 2021 with &#x2764;&#xFE0F; by Leekchan</p>
       <ul class="social">
         <li><a href="mailto:hikkanote01@gmail.com"><img src="assets/icon_gm.svg" alt="vk message"></a></li>
         <li><a href="https://vk.me/leekchan"><img src="assets/icon_vk.svg" alt="GM message"></a></li>
