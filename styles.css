@@ -432,7 +432,9 @@ footer img{
     padding: 0px 30px;
     background-color: #20232a;
     color: white;
-    height: 8vh;
+    height: 7vh;
+    position: fixed;
+    min-width: 100%;
   }
   nav .links {
     display: flex;
