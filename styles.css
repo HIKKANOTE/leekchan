@@ -41,6 +41,9 @@ input,textarea{
     border: 2px solid #9893D8;
     color: #000000;
 }
+a:hover {
+    color: #61dafb;
+  }
 
 /* fonts */
 @font-face {
@@ -51,8 +54,8 @@ h1,h2,h3,h4{
     color: #000000;
     font-weight: normal;
 }
-p,a,li{
-    color: #000000;
+a,li{
+    color: #ffffff;
 }
 h1,h3{
     font-size: 1.2em;
