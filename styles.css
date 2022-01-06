@@ -244,6 +244,17 @@ footer img{
       justify-content: space-around;
       align-items: center;
     }
+    .top-grid{
+        width: 100%;
+        max-width: 1060px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+    }
   }
 /* small tablet styles */
 @media screen and (min-width: 620px){
@@ -282,6 +293,17 @@ footer img{
         background-color: #20232a;
       }
     /* ending header */
+    .top-grid{
+        width: 100%;
+        max-width: 1060px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+    }
     .welcome-text{
         grid-column: 1/5;
     }
