@@ -234,10 +234,20 @@ footer img{
     width: 20px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 600px) {
     #mobile-menu-btn {
       display: block;
     }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        background-color: #20232a;
+        color: white;
+        height: 8vh;
+        position: fixed;
+      }
     nav p {
       display: none;
     }
@@ -260,7 +270,7 @@ footer img{
     }
   }
 /* small tablet styles */
-@media screen and (min-width: 620px){
+@media screen and (min-width: 600px){
     /* adding header */
     * {
         padding: 0px;
@@ -276,6 +286,7 @@ footer img{
         background-color: #20232a;
         color: white;
         height: 8vh;
+        position: fixed;
       }
       nav .links {
         display: flex;
@@ -359,6 +370,7 @@ footer img{
         background-color: #20232a;
         color: white;
         height: 8vh;
+        position: fixed;
       }
       nav .links {
         display: flex;
@@ -377,6 +389,7 @@ footer img{
         height: 60vh;
         width: 70vw;
         background-color: #20232a;
+        
       }
     /* ending header */
     body{
