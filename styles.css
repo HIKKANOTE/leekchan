@@ -41,9 +41,6 @@ input,textarea{
     border: 2px solid #9893D8;
     color: #000000;
 }
-a:hover {
-    color: #61dafb;
-  }
 
 /* fonts */
 @font-face {
@@ -53,9 +50,6 @@ a:hover {
 h1,h2,h3,h4{
     color: #000000;
     font-weight: normal;
-}
-a,li{
-    color: #ffffff;
 }
 h1,h3{
     font-size: 1.2em;
@@ -69,7 +63,13 @@ h4{
 .leading{
     font-size: 1.1em;
 }
-
+a{
+    color:#fffffF;
+}
+a:hover {
+    color: #61dafb;
+  }
+  
 /* mobile styles */
 /* adding header */
 * {
@@ -88,7 +88,10 @@ nav {
     height: 8vh;
   }
   nav .links {
+    gap: 10px;
     display: flex;
+    align-items: center;
+    justify-items: center;
   }
   .links p {
     padding: 10px;
@@ -238,16 +241,6 @@ footer img{
     #mobile-menu-btn {
       display: block;
     }
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 30px;
-        background-color: #20232a;
-        color: white;
-        height: 8vh;
-        position: fixed;
-      }
     nav p {
       display: none;
     }
@@ -257,20 +250,9 @@ footer img{
       justify-content: space-around;
       align-items: center;
     }
-    .top-grid{
-        width: 100%;
-        max-width: 1060px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 10px;
-        align-items: center;
-        justify-items: center;
-    }
   }
 /* small tablet styles */
-@media screen and (min-width: 600px){
+@media screen and (min-width: 620px){
     /* adding header */
     * {
         padding: 0px;
@@ -286,7 +268,6 @@ footer img{
         background-color: #20232a;
         color: white;
         height: 8vh;
-        position: fixed;
       }
       nav .links {
         display: flex;
@@ -307,17 +288,6 @@ footer img{
         background-color: #20232a;
       }
     /* ending header */
-    .top-grid{
-        width: 100%;
-        max-width: 1060px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 10px;
-        align-items: center;
-        justify-items: center;
-    }
     .welcome-text{
         grid-column: 1/5;
     }
@@ -370,7 +340,6 @@ footer img{
         background-color: #20232a;
         color: white;
         height: 8vh;
-        position: fixed;
       }
       nav .links {
         display: flex;
@@ -389,24 +358,10 @@ footer img{
         height: 60vh;
         width: 70vw;
         background-color: #20232a;
-        
       }
     /* ending header */
     body{
         font-size: 18px;
-    }
-
-/* top grid testing */
-    .top-grid{
-        width: 100%;
-        max-width: 1060px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 10px;
-        align-items: center;
-        justify-items: center;
     }
     .grid{
         width: 100%;
