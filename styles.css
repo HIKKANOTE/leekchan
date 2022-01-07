@@ -96,6 +96,9 @@ nav {
   .links p {
     padding: 10px;
   }
+  #mobile-logo-text {
+    display: none;
+  }
   #mobile-menu-btn {
     display: none;
   }
@@ -238,6 +241,9 @@ footer img{
 }
 
 @media (max-width: 600px) {
+    #mobile-logo-text {
+        display: block;
+      }
     #mobile-menu-btn {
       display: block;
     }
