@@ -241,7 +241,7 @@ footer img{
     #mobile-menu-btn {
       display: block;
     }
-    nav p {
+    nav a {
       display: none;
     }
     .mobile-menu {
@@ -272,8 +272,11 @@ footer img{
       nav .links {
         display: flex;
       }
-      .links p {
+      .links a {
         padding: 10px;
+      }
+      #mobile-logo-text {
+        display: none;
       }
       #mobile-menu-btn {
         display: none;
@@ -344,8 +347,11 @@ footer img{
       nav .links {
         display: flex;
       }
-      .links p {
+      .links a {
         padding: 10px;
+      }
+      #mobile-logo-text {
+        display: none;
       }
       #mobile-menu-btn {
         display: none;
@@ -445,8 +451,11 @@ footer img{
   nav .links {
     display: flex;
   }
-  .links p {
+  .links a {
     padding: 10px;
+  }
+  #mobile-logo-text {
+    display: none;
   }
   #mobile-menu-btn {
     display: none;
