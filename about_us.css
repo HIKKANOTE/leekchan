@@ -21,14 +21,24 @@ body{
     font-family: 'Rubik Regular';
 }
 .button{
-    background: none;
-    border: 2px solid var(--primary);
-    color: #000000;
+    -webkit-text-size-adjust: 100%;
+    font: 112.5%/1.45em 'Rubik Regular',monospace;
+    word-wrap: break-word;
+    font-kerning: normal;
+    font-feature-settings: "kern","liga","clig","calt";
+    font-family: 'Rubik Regular',monospace;
+    line-height: 1.555rem;
+    font-size: 18px;
+    box-sizing: inherit;
+    background-color: transparent;
+    color: #33332d;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    box-shadow: -3px 5px #33332d;
     padding: 6px 12px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    box-shadow: 1px 2px 3px rgba(0,0,0,0,6);
-    display: inline-block;
+    border: 3px solid #33332d;
+    font-weight: 600;
 }
 .button:hover{
     color: #222;
@@ -475,11 +485,11 @@ footer img{
     width: 70vw;
     background-color: #20232a;
   }
+  
 /* ending header */ 
     body{
         font-size: 20x;
     }
-
     #welcome, #portfolio, #skills, #contact{
         padding: 90px 0;
     }
