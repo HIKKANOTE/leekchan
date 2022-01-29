@@ -228,9 +228,6 @@ footer img{
     #mobile-logo-text {
         display: block;
       }
-    #mobile-menu-btn {
-      display: block;
-    }
     nav a {
       display: none;
     }
@@ -242,7 +239,7 @@ footer img{
     }
   }
 /* small tablet styles */
-@media screen and (min-width: 620px){
+@media screen and (min-width: 600px){
     /* adding header */
     * {
         padding: 0px;
@@ -266,9 +263,6 @@ footer img{
         padding: 10px;
       }
       #mobile-logo-text {
-        display: none;
-      }
-      #mobile-menu-btn {
         display: none;
       }
       .mobile-menu {
@@ -515,7 +509,7 @@ Main components
 header[role=banner] {
   position: relative;
   height: 50px;
-  background: #343642;
+  background: none;
 }
 header[role=banner] #cd-logo {
   float: left;
@@ -594,6 +588,7 @@ header[role=banner]::after {
   border-top: 1px solid #3b3d4b;
   color: #FFF;
 }
+
 @media only screen and (min-width: 768px) {
   .main-nav {
     width: auto;
@@ -622,7 +617,7 @@ header[role=banner]::after {
     display: inline-block;
     margin-left: 1em;
   }
-  .main-nav li:nth-last-child(2) {
+  .main-nav li:nth-last-child(3) {
     margin-left: 2em;
   }
   .main-nav a {
@@ -631,7 +626,7 @@ header[role=banner]::after {
     line-height: normal;
     background: transparent;
   }
-  .main-nav a.cd-signin, .main-nav a.cd-signup {
+  .main-nav a.cd-signin, .main-nav a.cd-signup, .main-nav a.cd-about {
     padding: .6em 1em;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 50em;
@@ -640,7 +635,7 @@ header[role=banner]::after {
     background: #2f889a;
     border: none;
   }
-  a.cd-about{
+  .main-nav a.cd-about{
     padding: .6em 1em;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 50em;
@@ -958,10 +953,10 @@ xsigin/signup popup
   }
 }
 
-#cd-login, #cd-signup, #cd-reset-password {
+#cd-login, #cd-signup, #cd-reset-password, #cd-about {
   display: none;
 }
 
-#cd-login.is-selected, #cd-signup.is-selected, #cd-reset-password.is-selected {
+#cd-login.is-selected, #cd-signup.is-selected, #cd-reset-password.is-selected, #cd-about.is-selected {
   display: block;
 }
